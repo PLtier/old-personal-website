@@ -1,0 +1,57 @@
+@import "./variables";
+@import "./extends";
+
+
+
+%slide__text{
+
+}
+
+.slide__img-figure{
+  flex: 2;
+  align-self: center;
+}
+
+.slider{
+  flex-grow: 1;
+}
+
+
+
+
+
+.slide__headline{
+
+}
+
+
+
+.slide__img{
+}
+
+.slide__text{
+  max-width: 1000px;
+  font-size: 1.1em;
+}
+
+.slide--page__text{
+}
+
+
+.slide__text-wrapper{
+flex: 1;
+}
+
+div .slide--page__button{
+  margin-top: 20px;
+}
+@media (max-width: 750px){
+  div .slide--page__button{
+    margin-top: 15px;
+  }
+}
+
+
+
+
+

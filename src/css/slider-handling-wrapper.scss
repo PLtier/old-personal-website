@@ -1,0 +1,65 @@
+@import './_variables';
+
+%slide{
+  //purpose of this selector is to only keep %slide living
+font-stretch: normal;
+}
+%slide--text{
+  padding-left: 49px;
+  line-height: 1.4;
+}
+
+
+
+
+.slide1,
+.slide2,
+.slide3,
+.slide4 {
+  padding: 20px;
+  text-align: left;
+  height: 55vh;
+  color: "#fff";
+}
+
+
+
+
+.slider>div>div{
+  .slide--text{
+    @extend %slide--text;
+    @extend %slide;
+  }
+  .slide--page{
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+  }
+  
+>div:nth-child(1){
+  background-color: #fea900;
+.slide1 {
+  background-color: #fea900;
+  
+}
+}
+>div:nth-child(2){
+  background-color: $lightblue;
+.slide2 {
+  background-color: $lightblue;
+  }
+  
+}
+>div:nth-child(3){
+  background-color: $lightgreen;
+.slide3 {
+  background-color: $lightgreen;
+}
+}
+>div:nth-child(4){
+  background-color: #fea900;
+.slide4 {
+  background-color: #fea900;
+}
+}
+}

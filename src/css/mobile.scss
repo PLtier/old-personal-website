@@ -1,0 +1,158 @@
+@media (max-width: 750px){
+  div{
+  .sidebar-slide{
+top: 0px;
+  }
+
+   .sidebar{
+width: 100vw;
+height: 100vh;
+  }
+}
+
+}
+
+@media (max-width: 1350px){
+  div .slide--page{
+    .slide__img-figure{
+      flex: none;
+    }
+    .slide__text-wrapper{
+      margin-bottom: 15px;
+      flex: none;
+
+    }
+    .slide--text{
+      padding-left: 0px !important;
+    }
+  }
+}
+
+//start main.scss
+
+@media (max-width: 470px){
+  div .l-main-layout{
+    grid-template-columns: 1fr;
+    grid-auto-rows: 1fr;
+    }
+  div .c-main{
+    grid-area: 1/1/1/1;
+    margin: 0px;
+    margin-top: 10px;
+    >img{
+      margin-top: 0px;
+      width: 70px !important;
+    }
+  }
+}
+
+
+@media (max-width: 425px) and (min-width: 320px){
+  main .c-main__text{
+    font-size: 1.2em !important;
+    line-height: 25px !important;
+  }
+  .c-main__tagline{
+    font-size: 0.9em;
+  }
+  strong{
+    font-size: 1.2em;
+  }
+}
+
+@media (max-width: 320px){
+  main{
+  .c-main__text{
+    font-size: 1em !important;
+    line-height: 20px !important;
+  }
+  .c-main__tagline{
+    font-size: 0.9em;
+  }
+  strong{
+    font-size: 1.2em;
+  }
+}
+}
+//quick change - now it's flexbox
+@media (max-width: 425px){
+  div .l-main-layout{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  }
+
+//end main.scss
+
+@media screen and (max-width: 1350px){
+  .slide--page{
+    flex-direction: column !important;
+  }
+}
+
+
+@media (max-width: 425px){
+  div .timeline-wrapper{
+    position: relative;
+    top: -10px;
+    height: 70px;
+  }
+}
+
+//start slide.scss
+@media (max-width: 375px){
+  .slide--text
+.slide3{
+  padding: 15px !important;
+}
+}
+
+@media (max-width: 425px){
+  .slide--text{
+padding-left: 20px !important;
+  }
+}
+
+@media (max-width: 377px){
+  div .more-information__links-container{
+padding: 0;
+  }
+
+}
+//end slide.scss
+
+//start style.scss
+@media (max-width: 375px) and (min-width: 320px){
+  div .links-container__link{
+    
+    font-size: 0.9em;
+    height: 45px;
+    width: 135px;
+  }
+}
+//iphone x
+@media (max-width: 375px) and (min-height: 812px){
+  div .links-container__link{
+    font-size: 1em;
+    height: 50px;
+    width: 145px;
+  }
+}
+
+@media (max-width: 320px){
+  div .links-container__link{
+  
+    font-size: 0.6em;
+    height: 32px;
+    width: 110px;
+  }
+}
+@media (max-width: 320px){
+  div .more-information__close-page{
+    margin: 15px;
+  }
+}
+
+//end style.scss
+

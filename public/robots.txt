@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://maciejjalocha.com/sitemap.xml

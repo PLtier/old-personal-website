@@ -1,0 +1,20 @@
+.u-text-left { text-align: left !important; }
+.u-text-center { text-align: center !important; }
+.u-text-right { text-align: right !important; }
+
+.u-hide-st-med {
+  @media (max-width: 599px) {
+    display: none !important;
+  }
+}
+
+.u-hide-bp-med {
+  @media (min-width: 600px) {
+    display: none !important;
+  }
+}
+
+.is-hidden{
+  display: none !important;
+  visibility: none !important;
+}

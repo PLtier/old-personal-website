@@ -1,0 +1,75 @@
+@import "./variables";
+@import "./extends";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+a{
+  color: $blue;
+    cursor: pointer;
+    text-decoration: none;
+}
+h1{
+  color: black;
+  }
+  .o-link {
+    text-decoration: none;
+    color: $blue;
+    &:hover {
+      color: $green;
+     
+    }
+    a{
+      color: $blue;
+      text-decoration: none;
+    }
+  }
+  
+figure{
+  margin:none;
+}
+
+address{
+  font-style: normal;
+}
+
+body {
+  height: 100%;
+  background-image: linear-gradient(to bottom, #43cea2, #00b5b3, #0099bb, #007ab4, #185a9d);
+  position: relative;
+  z-index: 3;
+  font-family: $font_1;
+}
+
+h1, h2, h3, h4, h5, h6, span, strong{
+  font-family: $font_0;
+  
+}
+ h1, h2, h3, h4, h5, h6{
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+
+ul{
+  margin-bottom: 20px;
+  padding-inline-start: 20px;
+}
+strong{
+  font-size: 1.9em;
+}
+.App {
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+}
+
+nav {
+  
+  display: flex;
+  justify-content: space-between;
+}
+
+

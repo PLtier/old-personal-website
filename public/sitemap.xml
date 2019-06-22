@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://maciejjalocha.com</loc>
+    <image:image>
+      <image:loc>https://uploads.codesandbox.io/uploads/user/48516d10-342d-4f19-8726-495b69e5ae7e/kakB-myLogos.PNG</image:loc>
+      <image:title>Maciej's Jałocha Logo</image:title>
+    </image:image>
+   
+  </url> 
+  <url>
+  <loc>https://maciejjalocha.com/portfolio</loc>
+   <image:image>
+      <image:loc>https://uploads.codesandbox.io/uploads/user/48516d10-342d-4f19-8726-495b69e5ae7e/1iz6-pageScreenShot.png</image:loc>
+      <image:title>Waywe Page App Screen Shot</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://uploads.codesandbox.io/uploads/user/48516d10-342d-4f19-8726-495b69e5ae7e/efSu-portfolioScreenShot.png</image:loc>
+      <image:title>Maciej's Jałocha Personal Page </image:title>
+    </image:image>
+  </url>
+</urlset> 

@@ -1,0 +1,16 @@
+@import "./variables";
+
+.l-main-layout {
+  display: grid;
+  grid-template-columns: 1fr 6fr 1fr;
+  grid-template-rows: 1fr 14fr;
+  height: 100vh;
+  background: transparent;
+}
+
+
+
+
+main {
+  grid-column: 2/3;
+}
