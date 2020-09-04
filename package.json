@@ -13,7 +13,7 @@
     "debug": "4.1.1",
     "react": "16.8.5",
     "react-dom": "16.8.5",
-    "node-sass": "4.12.0",
+    "node-sass": "4.14.1",
     "react-horizontal-timeline": "1.5.3",
     "react-particles-js": "2.6.0",
     "react-router": "5.0.0",
